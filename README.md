@@ -1,6 +1,7 @@
-# Welcome to the repo for our Podcast [`杠上开花 A Bouquet of Arguments`](https://podcasts.apple.com/us/podcast/%E6%9D%A0%E4%B8%8A%E5%BC%80%E8%8A%B1-a-bouquet-of-arguments/id1523066220)
+# Welcome to the repo for our Podcast 
+##[`杠上开花 A Bouquet of Arguments`](https://podcasts.apple.com/us/podcast/%E6%9D%A0%E4%B8%8A%E5%BC%80%E8%8A%B1-a-bouquet-of-arguments/id1523066220)
 
-![logo](https://github.com/emma-oc/a-bouquet-of-arguments-podcast/blob/master/pic/logo.JPG =250x250)
+<img src="pic/logo.JPG" width="200">
 
 很高兴遇见你！
 
@@ -12,11 +13,11 @@
 我们的口号是：杠上开花，节节高。
 
 
-请关注我们的微信公众号与我们互动：
+关注我们的微信公众号与我们互动：
 
-![wechat](https://github.com/emma-oc/a-bouquet-of-arguments-podcast/blob/master/pic/wechat.png =250x)
+<img src="pic/wechat.png" height="180">
 
-我们的微博 [@杠上开花ABouquetOfArguments](https://www.weibo.com/u/7478127455)
+关注我们的微博 [@杠上开花ABouquetOfArguments](https://www.weibo.com/u/7478127455)
 
 你可以在喜马拉雅上订阅我们：[https://www.ximalaya.com/gerenchengzhang/39801152/](https://www.ximalaya.com/gerenchengzhang/39801152/)
 
