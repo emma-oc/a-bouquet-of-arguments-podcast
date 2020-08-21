@@ -1,6 +1,6 @@
 # Welcome to the repo for our Podcast [`杠上开花 A Bouquet of Arguments`](https://podcasts.apple.com/us/podcast/%E6%9D%A0%E4%B8%8A%E5%BC%80%E8%8A%B1-a-bouquet-of-arguments/id1523066220)
 
-![logo](./pic/logo.jpg =250x250)
+![logo](https://github.com/emma-oc/a-bouquet-of-arguments-podcast/blob/master/pic/logo.JPG =250x250)
 
 很高兴遇见你！
 
@@ -14,7 +14,7 @@
 
 请关注我们的微信公众号与我们互动：
 
-![wechat](./pic/wechat.png =250x)
+![wechat](https://github.com/emma-oc/a-bouquet-of-arguments-podcast/blob/master/pic/wechat.png =250x)
 
 我们的微博 [@杠上开花ABouquetOfArguments](https://www.weibo.com/u/7478127455)
 
