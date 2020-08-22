@@ -22,7 +22,7 @@ def main():
 
     web_data = requests.get(album_url, 
                             headers = headers).text
-    soup = BeautifulSoup(web_data)
+    soup = BeautifulSoup(web_data, features="lxml")
 
     main_script = soup.find('script', text=re.compile('window\.__INITIAL_STATE__'))
     json_text = re.search(r'^\s*window\.__INITIAL_STATE__\s*=\s*({.*?})\s*;\s*$',
@@ -39,7 +39,7 @@ def main():
     # get publish date for each track
     for track in tracks:
         track_url = 'https://www.ximalaya.com'+track['url']
-        track_soup = BeautifulSoup(requests.get(track_url, headers = Headers).text)
+        track_soup = BeautifulSoup(requests.get(track_url, headers = headers).text, features="lxml")
         track['publish_date'] = track_soup.find('span', {'class':'time _Td'}).text
 
     # final dataframe to save
