@@ -52,7 +52,7 @@ def send_email(fromaddr, pwd, toaddr, host, port, subject, body, Cc='', attachme
 
 def main():
     
-    send_email(fromaddr, pwd, toaddr, host, port, subject, body, Cc='', attachment=True, filename=filename, filepath=filepath)
+    send_email(fromaddr, pwd, toaddr, host, port, subject, body, Cc=Cc, attachment=True, filename=filename, filepath=filepath)
     print('execution finished :)')
 
 

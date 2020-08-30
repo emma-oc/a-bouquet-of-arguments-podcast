@@ -8,15 +8,11 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import datetime
+from time import sleep
 
-def main():
+from config import *
 
-    # define global variables
-    album_url = 'https://www.ximalaya.com/gerenchengzhang/39801152/'
-    headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36'}
-
-    output_path = '/Users/yue/Desktop/杠上开花/ximalaya/'
-
+def get_data(album_url, headers, output_path):
 
     # get html file and parse
 
@@ -50,7 +46,19 @@ def main():
     tracks_df['datapull_dt'] = datetime.date.today()
 
     tracks_df.to_csv(output_path+'ximalaya_data_{}.csv'.format(datetime.date.today()),encoding='utf_8_sig')
+    print('data pull finished :)')
 
+
+def main():
+    crawled = False
+    while not crawled:
+        try:
+            get_data(album_url, headers, output_path)
+            crawled = True
+        except:
+            sleep(sleep_time)
+            sleep_time *= 2 # if not successfull, double the sleep time
+        
 
 if __name__ == '__main__':
 	main()
